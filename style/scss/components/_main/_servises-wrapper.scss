@@ -1,0 +1,35 @@
+main{
+.servises-wrapper {
+  margin-top: 150px;
+
+  .servises-head {
+    text-align: center;
+    margin-bottom: 90px;
+
+    h2 {
+      font-size: 30px;
+      font-weight: 900;
+      @include font2(30px, 900);
+      text-transform: uppercase;
+      color: #394b50;
+    }
+
+    p {
+      @include font2(17px, 600);
+      color: #394b50;
+    }
+  }
+  .info-icon{
+    h3{
+      @include font2(16px, 700);
+      text-transform: uppercase;
+      color: #394b50;
+    }
+    p{
+      @include font2(13px, 400);
+      color: #6f7b7e;
+      line-height: 1.7;
+    }
+  }
+}
+}

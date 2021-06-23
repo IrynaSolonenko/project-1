@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@font-face {
+  font-family: "GothamProRegular";
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProBold";
+  src: url("../fonts/GothamProBold/GothamProBold.eot");
+  src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBold/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProBlack";
+  src: url("../fonts/GothamProBlack/GothamProBlack.eot");
+  src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"), url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProItalic";
+  src: url("../fonts/GothamProItalic/GothamProItalic.eot");
+  src: url("../fonts/GothamProItalic/GothamProItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"), url("../fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+  src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"), url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProLight";
+  src: url("../fonts/GothamProLight/GothamProLight.eot");
+  src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProLight/GothamProLight.woff") format("woff"), url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProMediumItalic";
+  src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+  src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"), url("../fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProLightItalic";
+  src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
+  src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"), url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProBoldItalic";
+  src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+  src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"), url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GothamProBlackItalic";
+  src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+  src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"), url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+header .navbar-light .navbar-nav .nav-link:focus, header .navbar-light .navbar-nav .nav-link:hover {
+  color: white; }
+header .navbar-brand {
+  padding: 10px 0; }
+header .nav-li .nav-bot {
+  font-family: 'Lato', sans-serif;
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #bebebe;
+  text-transform: uppercase; }
+header .nav-li .nav-bot:hover {
+  background-color: #ffbb42;
+  color: #ffffff; }
+header .nav-li:not(:last-child) {
+  padding-right: 25px; }
+
+@media (max-width: 576px), (max-width: 768px), (max-width: 992px) {
+  header navbarToggleExternalContent {
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+    header navbarToggleExternalContent .nav-li:not(:last-child) {
+      padding: 0; } }
+main .form-wrapper .bg-col {
+  background-color: #709dca; }
+  main .form-wrapper .bg-col .form-container {
+    padding: 110px 0 347px; }
+  main .form-wrapper .bg-col .info {
+    text-align: center;
+    color: white;
+    padding-bottom: 35px; }
+    main .form-wrapper .bg-col .info h1 {
+      text-transform: uppercase;
+      font-size: 35px;
+      font-weight: 900;
+      font-family: "GothamProBlack", sans-serif; }
+    main .form-wrapper .bg-col .info p {
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "Open Sans", sans-serif;
+      color: #394b50;
+      color: white; }
+  main .form-wrapper .bg-col .btn-style {
+    background-color: #ffbb42;
+    color: white;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase; }
+  main .form-wrapper .bg-col .block-marg {
+    margin-bottom: 85px; }
+    main .form-wrapper .bg-col .block-marg .input-name {
+      position: relative; }
+      main .form-wrapper .bg-col .block-marg .input-name input {
+        padding-left: 35px; }
+      main .form-wrapper .bg-col .block-marg .input-name svg {
+        position: absolute;
+        left: 20px;
+        top: 12px;
+        color: #6c75a7; }
+    main .form-wrapper .bg-col .block-marg .input-email {
+      position: relative; }
+      main .form-wrapper .bg-col .block-marg .input-email input {
+        padding-left: 35px; }
+      main .form-wrapper .bg-col .block-marg .input-email svg {
+        position: absolute;
+        left: 20px;
+        top: 12px;
+        color: #6c75a7; }
+    main .form-wrapper .bg-col .block-marg .input-phone {
+      position: relative; }
+      main .form-wrapper .bg-col .block-marg .input-phone input {
+        padding-left: 35px; }
+      main .form-wrapper .bg-col .block-marg .input-phone svg {
+        position: absolute;
+        left: 20px;
+        top: 12px;
+        color: #6c75a7; }
+main .laptop-car {
+  width: 645px;
+  height: 343px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -300px; }
+main .carousel-indicators {
+  position: relative;
+  top: 70px; }
+main .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #6ebedc; }
+
+main .servises-wrapper {
+  margin-top: 150px; }
+  main .servises-wrapper .servises-head {
+    text-align: center;
+    margin-bottom: 90px; }
+    main .servises-wrapper .servises-head h2 {
+      font-size: 30px;
+      font-weight: 900;
+      font-size: 30px;
+      font-weight: 900;
+      font-family: "Lato", sans-serif;
+      text-transform: uppercase;
+      color: #394b50; }
+    main .servises-wrapper .servises-head p {
+      font-size: 17px;
+      font-weight: 600;
+      font-family: "Lato", sans-serif;
+      color: #394b50; }
+  main .servises-wrapper .info-icon h3 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #394b50; }
+  main .servises-wrapper .info-icon p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: #6f7b7e;
+    line-height: 1.7; }
+
+main .about-us-info {
+  margin-top: 150px;
+  background: #ffc155;
+  height: 600px;
+  position: relative; }
+  main .about-us-info .image {
+    background-image: url("../../images/about-us.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 0; }
+  main .about-us-info .about-info .info {
+    position: absolute;
+    color: white;
+    bottom: 50%;
+    transform: translateY(50%);
+    padding-left: 50px; }
+    main .about-us-info .about-info .info h2 {
+      font-size: 30px;
+      font-weight: 900;
+      font-family: "Lato", sans-serif;
+      text-transform: uppercase; }
+    main .about-us-info .about-info .info p {
+      font-size: 13px;
+      font-weight: 400;
+      font-family: "Lato", sans-serif;
+      line-height: 1.7; }
+    main .about-us-info .about-info .info .my-btn {
+      border: 2px solid #f7ba51;
+      background: transparent;
+      color: white;
+      text-transform: uppercase; }
+
+main .price-wrapper {
+  padding: 140px 0 195px;
+  background: #e7edf3; }
+  main .price-wrapper .price-info {
+    text-align: center; }
+    main .price-wrapper .price-info h2 {
+      font-size: 30px;
+      font-weight: 900;
+      font-family: "GothamProBlack", sans-serif;
+      text-transform: uppercase;
+      color: #394b50; }
+    main .price-wrapper .price-info p {
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "Lato", sans-serif;
+      color: #394b50; }
+  main .price-wrapper .flex-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px; }
+    main .price-wrapper .flex-price .price-plan {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      transition: all 0.2s linear;
+      width: 390px;
+      height: 440px;
+      border: 2px solid #d1dae4;
+      padding: 45px 30px;
+      text-transform: uppercase;
+      background: white;
+      color: #a4abb2; }
+      main .price-wrapper .flex-price .price-plan p {
+        margin: 0; }
+      main .price-wrapper .flex-price .price-plan .name {
+        font-size: 25px;
+        font-weight: 300;
+        font-family: "Lato", sans-serif; }
+      main .price-wrapper .flex-price .price-plan .sum {
+        font-size: 60px;
+        font-weight: 900;
+        font-family: "Lato", sans-serif;
+        color: #ffbb42;
+        margin: 0;
+        padding: 0; }
+      main .price-wrapper .flex-price .price-plan .sum::first-letter {
+        font-size: 30px;
+        font-weight: 900;
+        font-family: "Lato", sans-serif;
+        vertical-align: 20px; }
+      main .price-wrapper .flex-price .price-plan .regular {
+        margin: -17px 0 25px; }
+      main .price-wrapper .flex-price .price-plan .line {
+        border: 1px solid #f5f8fa;
+        width: 100%;
+        margin: 8px 0 8px; }
+      main .price-wrapper .flex-price .price-plan .my-btn {
+        margin-top: 30px;
+        background-color: #ffbb42;
+        color: white;
+        padding: 6px 15px;
+        border: 1px solid #ffbb42; }
+    main .price-wrapper .flex-price .price-plan:hover {
+      transform: scale(1.1, 1.1);
+      background: #709dca;
+      color: white; }
+      main .price-wrapper .flex-price .price-plan:hover .sum {
+        color: white; }
+
+main .how-it-works-wrapper {
+  margin: 155px 0 250px; }
+  main .how-it-works-wrapper .how-it-works-info {
+    text-align: center; }
+    main .how-it-works-wrapper .how-it-works-info h2 {
+      font-size: 30px;
+      font-weight: 900;
+      font-family: "GothamProBlack", sans-serif;
+      text-transform: uppercase;
+      color: #394b50; }
+    main .how-it-works-wrapper .how-it-works-info p {
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "Lato", sans-serif;
+      color: #394b50; }
+  main .how-it-works-wrapper .all-steps {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    main .how-it-works-wrapper .all-steps .step {
+      width: calc(100% / 7);
+      text-align: center; }
+      main .how-it-works-wrapper .all-steps .step .step-info {
+        padding-top: 120px; }
+        main .how-it-works-wrapper .all-steps .step .step-info h3 {
+          font-size: 20px;
+          font-weight: 700;
+          font-family: "Lato", sans-serif;
+          text-transform: uppercase;
+          color: #394b50; }
+        main .how-it-works-wrapper .all-steps .step .step-info p {
+          font-size: 13px;
+          font-weight: 300;
+          font-family: "Open Sans", sans-serif;
+          color: #394b50;
+          margin: 0; }
+    main .how-it-works-wrapper .all-steps .arrow-up img {
+      padding-top: 70px; }
+  main .how-it-works-wrapper .my-btn {
+    background-color: #ffbb42;
+    color: white;
+    padding: 6px 27px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 90px; }
+
+main .client-wrapper {
+  padding: 140px 0 160px;
+  background: #ffc155; }
+  main .client-wrapper .row {
+    justify-content: center; }
+    main .client-wrapper .row .client-head {
+      text-align: center;
+      padding-bottom: 60px; }
+      main .client-wrapper .row .client-head h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        font-weight: 800;
+        font-family: "Open Sans", sans-serif;
+        color: #394b50;
+        text-transform: uppercase;
+        color: white; }
+      main .client-wrapper .row .client-head p {
+        font-size: 16px;
+        font-weight: 300;
+        font-family: "Open Sans", sans-serif;
+        color: #394b50;
+        color: white; }
+    main .client-wrapper .row .client-comment {
+      padding: 10px; }
+      main .client-wrapper .row .client-comment .comment-block {
+        padding: 40px 20px; }
+        main .client-wrapper .row .client-comment .comment-block img {
+          width: 120px;
+          height: 120px; }
+        main .client-wrapper .row .client-comment .comment-block .info-comment {
+          padding-left: 15px; }
+          main .client-wrapper .row .client-comment .comment-block .info-comment p {
+            font-size: 13px;
+            font-weight: 400;
+            font-family: "Open Sans", sans-serif;
+            color: #394b50; }
+            main .client-wrapper .row .client-comment .comment-block .info-comment p .name {
+              font-size: 14px;
+              font-weight: 400;
+              font-family: "Open Sans", sans-serif;
+              color: #394b50;
+              color: #f99865; }
+            main .client-wrapper .row .client-comment .comment-block .info-comment p .quotes {
+              font-size: 15px; }
+          main .client-wrapper .row .client-comment .comment-block .info-comment p + p {
+            text-transform: uppercase; }
+
+main .subscribe-wrapper .form-container {
+  padding: 40px 0 50px; }
+main .subscribe-wrapper .info {
+  text-align: center;
+  padding-bottom: 35px; }
+  main .subscribe-wrapper .info h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "GothamProBlack", sans-serif;
+    font-size: 35px;
+    font-weight: 900; }
+  main .subscribe-wrapper .info p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: #394b50; }
+main .subscribe-wrapper .btn-style {
+  background-color: #ffbb42;
+  color: white;
+  padding: 6px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase; }
+main .subscribe-wrapper .input-name {
+  position: relative; }
+  main .subscribe-wrapper .input-name input {
+    padding-left: 35px; }
+  main .subscribe-wrapper .input-name svg {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color: #6c75a7; }
+main .subscribe-wrapper .input-email {
+  position: relative; }
+  main .subscribe-wrapper .input-email input {
+    padding-left: 35px; }
+  main .subscribe-wrapper .input-email svg {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color: #6c75a7; }
+main .map-part {
+  margin-bottom: 50px; }
+  main .map-part .map {
+    background-image: url("../../images/map.png");
+    background-size: cover; }
+    main .map-part .map img {
+      margin: 0 auto;
+      padding: 100px 0 160px;
+      display: flex; }
+
+main .nav-bottom-wrapper .nav-block {
+  border-top: 1px solid #dee3e9;
+  padding: 50px 0 0;
+  display: flex;
+  justify-content: center; }
+  main .nav-bottom-wrapper .nav-block .nav-li {
+    text-transform: uppercase;
+    padding-bottom: 22px; }
+    main .nav-bottom-wrapper .nav-block .nav-li a {
+      color: black; }
+main .nav-li:not(:last-child) {
+  padding-right: 22px; }
+main .phone-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  main .phone-number p {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    padding-left: 5px; }
+main .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22px; }
+  main .social a:not(:last-child) {
+    padding-right: 17px; }
+
+footer .foot {
+  background: #709dca;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center; }
+  footer .foot a {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #394b50;
+    color: white;
+    text-decoration: none; }
+
+@media (max-width: 576px), (max-width: 768px) {
+  main .form-wrapper .bg-col .form-container {
+    padding: 90px 0 150px; }
+    main .form-wrapper .bg-col .form-container .block-marg input {
+      margin-bottom: 10px; }
+  main .slide .laptop-car {
+    width: 320px;
+    height: 170px;
+    margin-top: -150px; } }
+@media (max-width: 768px) {
+  main .about-us-info {
+    margin-top: 0; }
+    main .about-us-info .container-fluid .info {
+      background: #ffc155;
+      background-size: cover; } }
+@media (max-width: 768px), (max-width: 992px) {
+  main .price-wrapper {
+    padding: 50px 0; }
+    main .price-wrapper .price-plan {
+      margin-bottom: 10px; } }
+@media (max-width: 768px), (max-width: 992px) {
+  main .how-it-works-wrapper {
+    margin: 20px 0 150px; }
+    main .how-it-works-wrapper .all-steps {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 40px; }
+      main .how-it-works-wrapper .all-steps .step {
+        min-width: 100%;
+        padding: 20px 0 20px; }
+        main .how-it-works-wrapper .all-steps .step .step-info {
+          padding: 50px 0 0; }
+        main .how-it-works-wrapper .all-steps .step img {
+          padding: 0; }
+      main .how-it-works-wrapper .all-steps .arrow {
+        display: none; }
+      main .how-it-works-wrapper .all-steps .arrow-up {
+        display: none; } }
+@media (max-width: 576px) {
+  main .how-it-works-wrapper {
+    padding: 20px 0 0; }
+    main .how-it-works-wrapper .all-steps .step {
+      width: 100%; }
+      main .how-it-works-wrapper .all-steps .step img {
+        padding: 0; }
+    main .how-it-works-wrapper .all-steps .arrow img {
+      padding-bottom: 20px; }
+    main .how-it-works-wrapper .all-steps .arrow-up img {
+      padding-top: 20px; }
+    main .how-it-works-wrapper .my-btn {
+      margin-top: 20px; } }
+@media (max-width: 576px) {
+  main .client-wrapper {
+    padding: 30px 0; }
+    main .client-wrapper .comment-block {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column; } }
+@media (max-width: 576px), (max-width: 768px) {
+  main .subscribe-wrapper .form-container .input-name, main .subscribe-wrapper .form-container .input-email {
+    margin-bottom: 10px; } }
+@media (max-width: 576px), (max-width: 768px) {
+  main .nav-bottom-wrapper {
+    text-align: center; }
+    main .nav-bottom-wrapper .navbar-navigation .nav-block {
+      display: flex;
+      justify-content: center; }
+      main .nav-bottom-wrapper .navbar-navigation .nav-block .nav-li:not(:last-child) {
+        padding: 0 0 20px; } }
+
+/*# sourceMappingURL=index.css.map */

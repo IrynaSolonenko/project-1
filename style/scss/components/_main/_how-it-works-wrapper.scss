@@ -1,0 +1,53 @@
+main{
+  .how-it-works-wrapper{
+    margin: 155px 0 250px;
+    .how-it-works-info{
+      text-align: center;
+      h2{
+        @include font3(30px, 900);
+        text-transform: uppercase;
+        color: #394b50;
+      }
+      p{
+        @include font2(16px, 300);
+        color: #394b50;
+      }
+    }
+    .all-steps{
+      margin-top: 80px;
+      @include flex(center, flex-start);
+      flex-wrap: wrap;
+      .step{
+        width: calc(100% / 7);
+        text-align: center;
+        .step-info{
+          padding-top: 120px;
+          h3{
+            @include font2(20px, 700);
+            text-transform: uppercase;
+            color: #394b50;
+          }
+          p{
+            @include font(13px, 300);
+            margin: 0;
+          }
+        }
+      }
+      .arrow-up{
+        img {
+          padding-top: 70px;
+        }
+      }
+    }
+    .my-btn {
+      background-color: #ffbb42;
+      color: white;
+      padding: 6px 27px;
+      text-transform: uppercase;
+      position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+      margin-top: 90px;
+    }
+  }
+}

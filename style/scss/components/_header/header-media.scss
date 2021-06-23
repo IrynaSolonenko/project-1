@@ -1,0 +1,14 @@
+@media(max-width: 576px), (max-width: 768px), (max-width: 992px){
+  header{
+    .navigat {
+      text-align: center;
+      .menu {
+          display: flex;
+          justify-content: center;
+          .nav-li:not(:last-child) {
+            padding: 0 0 20px;
+          }
+        }
+    }
+  }
+}

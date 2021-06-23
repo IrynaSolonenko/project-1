@@ -1,0 +1,27 @@
+header {
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+  }
+
+  .navbar-brand{
+    padding: 10px 0;
+  }
+  .nav-li{
+
+    .nav-bot {
+      font-family: 'Lato', sans-serif;
+      font-size: 13.5px;
+      font-weight: 400;
+      color: #bebebe;
+      text-transform: uppercase;
+    }
+
+    .nav-bot:hover {
+      background-color: #ffbb42;
+      color: #ffffff;
+    }
+    }
+  .nav-li:not(:last-child) {
+    padding-right: 25px;
+  }
+}
